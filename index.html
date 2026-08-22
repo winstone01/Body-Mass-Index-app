@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>BMI Calculator Vol</title>
+    </head>
+    <body>
+        <section class="container">
+            <h1>Body Mass Index calculator</h1>
+            <article class="row">
+                <input title="slide me " type="range" min="20" max="200" value="20" id="weight" oninput="calculate()">
+                <span id="weight-val">20 kg</span>
+            </article>
+            <article class="row">
+                <input title="slide me " type="range" min="100" max="250" value="100" id="height" oninput="calculate()" >
+                <span id="height-val">100 cm</span>
+                
+            </article>
+            <p id="result">20.1</p>
+            <p id="category">Normal Weight</p>
+        </section>
+
+
+        <script src="./script.js" defer ></script>
+    </body>
+</html>
